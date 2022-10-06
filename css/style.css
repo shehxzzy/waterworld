@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-X: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    height: 70px;
+    width: 80px;
+}
+
+.nb {
+    background-color: rgba(0, 153, 255, 0.9);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+.nb li a:hover {
+    background-color: #33CCFF;
+    color: #002835;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+/* FIRST SECTION PARA */
+
+.para {
+    line-height: 40px;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+/* SECOND & THIRD SECTION PARA */
+.para1 {
+    line-height: 35px;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.fs-img{
+    height: 300px;
+    width: 100%;
+}
+h1 {
+    color: rgba(0, 153, 255, 0.9);
+}
+
+/* SLIDES TEXT  */
+
+.spn {
+    margin-top: -22px;
+    background-color: #33CCFF;
+    opacity: 0.7;
+    z-index: -2;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .2s all;
+}
+
+.spn:hover {
+    margin-top: -40px;
+    height: 40px;
+    color: black;
+}
+
+/* SLIDES TEXT LINKS */
+
+.s-links {
+    text-decoration: none;
+    color: #002835;
+    font-weight: 600;
+}
+
+/* DATE AND TIME TEXT */
+
+.js-p {
+    margin-top: 80px;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(139, 0, 0);
+}
+
+/* ARROW ICON */
+
+.iconnn {
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+}
+
+/* FOOTER  */
+
+H6 {
+    color: rgba(0, 153, 255, 0.9);
+}
+
+.ftr {
+    background-color: rgba(0, 153, 255, 0.9);
+    color: #002835;
+}
+
+footer p {
+    color: #002835;
+}
+
+.dropdown-menu.show {
+    padding: 0px;
+}
+
+i {
+    padding-right: 4px;
+}
+
+section {
+    overflow-x: hidden;
+}
+
+.ftr a.text-reset {
+    background-color: black;
+    margin: 0px 4px;
+    height: 30px;
+    width: 30px;
+    color: #18a2ff !important;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: .2s all;
+}
+
+.ftr a.text-reset:hover {
+    background-color: #18a2ff;
+    color: black !important;
+    border: 2px solid black;
+}
+
+.ftr a.text-reset i {
+    padding-right: 0px !important;
+}
+
+a#top {
+    position: absolute;
+    bottom: 5%;
+    right: 0px;
+    background-color: black;
+}
+
+a.back-top {
+    position: sticky;
+    top: 90%;
+    left: 30px;
+    background: black;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.ftr span {
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+
+footer h6 {
+    text-align: left;
+}
+
+footer p {
+    text-align: left;
+}
+
+.main img {
+    border: 1px solid #00000017;
+    padding: 4px;
+    border-radius: 2px;
+}
+/* All styles in 1 stylesheet or atmost 2 */
+
+@media(min-width:800px and max-width:1200px) {}
+
+@media(min-width:650px and max-width:799px) {}
+
+@media(min-width:480px and max-width:649px) {}
+
+@media(max-width:440px) {
+    .slider {
+        width: 100%;
+        display: block;
+    }
+/* FOUNDATION, SAFETY IMAGE */
+    .fs-img {
+        width: 100%;
+    }
+    
+/* SANJALIKA IMAGE  */
+    .sanj {
+        width: auto;
+        height: 200px;
+
+    }
+
+    h1,
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .js-p,
+    .para,
+    .para1 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .row.mt-5.mb-5 img {
+        width: 100%;
+    }
+    .lockers{
+        height: 200px;
+        width: auto;
+    }
+}

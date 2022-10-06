@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    height: 70px;
+    width:80px;
+}
+
+.nb{
+    background-color:rgba(0, 153, 255, 0.6);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    font-size: 18px;
+    font-family:sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.nb li a:hover{
+    background-color:#33CCFF ;
+    color:#002835 ;     
+     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+     
+}
+
+
+.bgimg{
+    background-image: url(../imgs/pexels-toni-cuenca-405031.jpg);
+	background-size: 100% 100%;
+	width: 100%;
+	height: 650px;
+}
+
+
+.headerSet{
+    padding-top:300px;
+	/* padding-top: 140px; */
+	box-sizing: border-box;
+}
+
+
+.headerSet h2{
+font-size: 55px;
+}
+
+
+.secondset{
+    margin-top: 70px;
+}
+
+
+.secondset h1{
+    color:rgba(0, 153, 255, 0.9) ;
+}
+
+
+.secondset p{
+    font-size: 22px;
+    line-height: 30px;
+}
+
+
+.logo2{
+    padding-left:150px;
+    height: 200px;
+    width: auto;
+    margin-bottom:20px;
+}
+
+
+.secondset h2{
+    color:rgba(0, 153, 255, 0.9) ;
+    font-size: 25px;
+}
+
+
+.secondset h2, .p2{
+    padding-left:120px;
+}
+
+.r-col{
+    padding-left:140px;
+}
+h3{
+    color:rgba(0, 153, 255, 0.9)  ;
+}
+
+
+.p1{
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.h11{
+    color: rgba(0, 153, 255, 0.9);
+}
+
+.prtnrs{
+    padding:80px;
+}
+
+
+h5{
+    border: 4px inset rgba(0, 153, 255, 0.9);
+}
+
+
+.ftr{
+    background-color: rgba(0, 153, 255, 0.9);
+    color: #002835;
+}
+
+
+footer p{
+    color: #002835;
+}
+
+
+.dropdown-menu.show {
+    padding: 0px;
+}
+
+
+i {
+    padding-right: 4px;
+}
+
+
+section {
+    overflow-x: hidden;
+}
+
+
+.ftr a.text-reset {
+    background-color: black;
+    margin: 0px 4px;
+    height: 40px;
+    width: 40px;
+    color: #18a2ff !important;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: .2s all;
+}
+
+.ftr a.text-reset:hover {
+    background-color: #18a2ff;
+    color: black !important;
+    border: 2px solid black;
+}
+
+.ftr a.text-reset i {
+    padding-right: 0px !important;
+}
+
+a#top {
+    position: absolute;
+    bottom: 5%;
+    right: 0px;
+    background-color: black;
+}
+
+a.back-top {
+    position: sticky;
+    top: 90%;
+    left: 30px;
+    background: black;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.ftr span {
+    font-size: 1.6rem;
+    text-transform: capitalize;
+}
+
+footer h6 {
+    text-align: left;
+    color: #18a2ff;
+}
+
+footer p {
+    text-align: left;
+}
+
+.main img {
+    border: 1px solid #00000017;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.para {
+    line-height: 40px;
+    font-size:22px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+/* All styles in 1 stylesheet or atmost 2 */
+
+@media(min-width:800px and max-width:1200px) {}
+
+@media(min-width:650px and max-width:799px) {}
+
+@media(min-width:480px and max-width:649px) {}
+
+@media(max-width:440px) {
+    .bgimg{
+        background-size: 100% 100%;
+        width: 100%;
+        height:500px;
+    }
+    .headerSet{
+        padding-top:300px;
+        /* padding-top: 140px; */
+        box-sizing: border-box;
+    }
+    
+    .headerSet h2{
+    font-size:20px;
+    text-align: left;
+    }
+
+
+    .headerSet h4{
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .secondset h1,h2{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .secondset p{
+        font-size: 15px;
+    } 
+
+    .l-row{
+        align-items: center;
+        padding-right: 150px;
+    }
+    .logo2{
+        margin-top: 40px;
+        height:100px;
+        padding-right: 20px;
+        width: auto;
+        margin-bottom:10px;
+    }
+    h3{
+        margin-top: 70px;
+        font-size:20px;
+    }
+    .p1{
+        font-size: 15px;
+    }
+    .prtnrs{
+        width: 100%;
+        height:auto;
+       margin-left:10px;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    .brdr {
+        height: 80px;
+        width:100%;
+    }
+}
